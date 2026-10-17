@@ -7,12 +7,16 @@ def check_valid_ip (ip):
     except ValueError:
         return False
 def extract_file(file):
-    with open (file,"r") as file:
-        devices = []
-        for i in file:
-            i=i.strip()
-            devices.append(i)
-    return devices
+    try:
+        with open (file,"r") as file:
+            devices = []
+            for i in file:
+                i=i.strip()
+                devices.append(i)
+        return devices
+    except FileNotFoundError : 
+        print("file not found.")
+        return([])
 def check_connection(ips):
     for ip in ips :
         if not check_valid_ip (ip) :
