@@ -24,14 +24,19 @@ def check_connection(ips):
                 continue
             else :
                 print(f"{ip:<15}| ignored") 
-                continue 
-        response = ping(ip)
-        
-        if response:
-            response_ms = round(response * 1000, 2)
-            print(f"{ip:<15}| online ✅ {response_ms} ms")
-        else:
-            print(f"{ip:<15}| offline ❌")
+                continue
+        try : 
+
+            response = ping(ip)
+            
+            if response:
+                response_ms = round(response * 1000, 2)
+                print(f"{ip:<15}| online ✅ {response_ms} ms")
+            else:
+                print(f"{ip:<15}| offline ❌")
+        except Exception:
+            print(f"{ip:<15}| error ⚠️")
+            continue
 
 devices=[]
 devices=extract_file("devices.txt")
