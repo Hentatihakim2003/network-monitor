@@ -5,11 +5,16 @@ def check_valid_ip (ip):
         ipaddress.ip_address(ip)
         return True
     except ValueError:
-        return False 
-with open ("devices.txt","r") as file:
-    print("Checking devices...\n")
-    for ip in file:
-        ip=ip.strip()
+        return False
+def extract_file(file):
+    with open (file,"r") as file:
+        devices = []
+        for i in file:
+            i=i.strip()
+            devices.append(i)
+    return devices
+def check_connection(ips):
+    for ip in ips :
         if not check_valid_ip (ip) :
             if ip=="":
                 continue
@@ -23,3 +28,7 @@ with open ("devices.txt","r") as file:
             print(f"{ip:<15}| online ✅ {response_ms} ms")
         else:
             print(f"{ip:<15}| offline ❌")
+
+devices=[]
+devices=extract_file("devices.txt")
+check_connection(devices)
