@@ -30,27 +30,29 @@ def check_connection(ips):
                     save_log(file,ip,"ignored")
                     continue
             try : 
-
-                response = ping(ip)
-                
-                if response:
-                    response_ms = round(response * 1000, 2)
-                    print(f"{ip:<15}| online ✅ {response_ms} ms")          
-                    save_log(file,ip,"online ✅",response_ms)
-                else:
-                    print(f"{ip:<15}| offline ❌")
-                    save_log(file,ip,"offline ❌")
-            except Exception:
-                print(f"{ip:<15}| error ⚠️")
-                save_log(file,ip,"error ⚠️")
-
-                continue
-def save_log(file, ip, result,response_ms=None):
+                raise Exception("Simulated network failure")
+            except Exception as e:
+                response = "error"
+                error_message = str(e)   
+            if response=="error":
+                print(f"{ip:<15}| error ⚠️  {error_message}")
+                save_log(file,ip,"error ⚠️",error=error_message)
+            elif response:
+                response_ms = round(response * 1000, 2)
+                print(f"{ip:<15}| online ✅ {response_ms} ms")          
+                save_log(file,ip,"online ✅",response_ms)
+            else:
+                print(f"{ip:<15}| offline ❌")
+                save_log(file,ip,"offline ❌")
+def save_log(file, ip, result,response_ms=None,error=None):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     if response_ms is not None:
-        file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result} {response_ms} ms\n")
+        file.write(f"{timestamp} | {ip:<15}| {result} {response_ms} ms\n")
+    elif error is not None:
+        file.write(f"{timestamp} | {ip:<15}| {result} {error}\n")        
     else:
-        file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result}\n")
-
+        file.write(f"{timestamp} | {ip:<15}| {result}\n")
+        
 devices=[]
 devices=extract_file("devices.txt")
 check_connection(devices)
