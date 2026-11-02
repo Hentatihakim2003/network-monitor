@@ -36,7 +36,7 @@ def check_connection(ips):
                 if response:
                     response_ms = round(response * 1000, 2)
                     print(f"{ip:<15}| online ✅ {response_ms} ms")          
-                    save_log(file,ip,"online ✅")
+                    save_log(file,ip,"online ✅",response_ms)
                 else:
                     print(f"{ip:<15}| offline ❌")
                     save_log(file,ip,"offline ❌")
@@ -45,8 +45,11 @@ def check_connection(ips):
                 save_log(file,ip,"error ⚠️")
 
                 continue
-def save_log(file, ip, result):
-    file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result}\n")
+def save_log(file, ip, result,response_ms=None):
+    if response_ms is not None:
+        file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result} {response_ms} ms\n")
+    else:
+        file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result}\n")
 
 devices=[]
 devices=extract_file("devices.txt")
