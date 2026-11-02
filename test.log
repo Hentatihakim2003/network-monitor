@@ -56,3 +56,14 @@
 2026-11-03 00:13:00 | 10.10.10.20    | error ⚠️ Simulated network failure
 2026-11-03 00:13:00 | hi             | ignored
 2026-11-03 00:13:00 | 10.20.66.65    | error ⚠️ Simulated network failure
+2026-11-03 00:20:49 | 8.8.8.8        | error ⚠️ Simulated network failure
+2026-11-03 00:20:49 | 10.10.10.20    | error ⚠️ Simulated network failure
+2026-11-03 00:20:49 | hi             | ignored
+2026-11-03 00:21:07 | 8.8.8.8        | error ⚠️ Simulated network failure
+2026-11-03 00:21:07 | 10.10.10.20    | error ⚠️ Simulated network failure
+2026-11-03 00:21:07 | hi             | ignored
+2026-11-03 00:21:07 | 10.20.66.65    | error ⚠️ Simulated network failure
+2026-11-03 00:21:49 | 8.8.8.8        | online ✅ 4.18 ms
+2026-11-03 00:21:53 | 10.10.10.20    | offline ❌
+2026-11-03 00:21:53 | hi             | ignored
+2026-11-03 00:21:57 | 10.20.66.65    | offline ❌
