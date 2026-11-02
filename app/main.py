@@ -27,7 +27,7 @@ def check_connection(ips):
                     continue
                 else :
                     print(f"{ip:<15}| ignored")
-                    file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| ignored\n")
+                    save_log(file,ip,"ignored")
                     continue
             try : 
 
@@ -36,14 +36,17 @@ def check_connection(ips):
                 if response:
                     response_ms = round(response * 1000, 2)
                     print(f"{ip:<15}| online ✅ {response_ms} ms")          
-                    file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| online ✅ {response_ms} ms\n")
+                    save_log(file,ip,"online ✅")
                 else:
                     print(f"{ip:<15}| offline ❌")
-                    file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| offline ❌\n")
+                    save_log(file,ip,"offline ❌")
             except Exception:
                 print(f"{ip:<15}| error ⚠️")
-                file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| error ⚠️\n")
+                save_log(file,ip,"error ⚠️")
+
                 continue
+def save_log(file, ip, result):
+    file.write(f"{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | {ip:<15}| {result}\n")
 
 devices=[]
 devices=extract_file("devices.txt")
