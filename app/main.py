@@ -52,7 +52,9 @@ def check_connection(ips):
                 print(f"{ip:<15}| offline ❌")
                 save_log(file,ip,"offline ❌")
                 offline+=1
-    total_valid = online + offline + errors
+        total_valid = online + offline + errors
+        save_summary(file, online, offline, errors, ignored,total_valid)
+
 
     print("\n========== MONITORING SUMMARY ==========")
     print(f"{'Total valid devices':<20}: {total_valid}")
@@ -61,6 +63,7 @@ def check_connection(ips):
     print(f"{'Errors':<20}: {errors}")
     print(f"{'Ignored':<20}: {ignored}")
     print("=" * 40)
+    
 def save_log(file, ip, result,response_ms=None,error=None):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     if response_ms is not None:
@@ -69,7 +72,14 @@ def save_log(file, ip, result,response_ms=None,error=None):
         file.write(f"{timestamp} | {ip:<15}| {result} {error}\n")        
     else:
         file.write(f"{timestamp} | {ip:<15}| {result}\n")
-        
+def save_summary(file, online, offline, errors, ignored,total_valid):
+    file.write("\n========== MONITORING SUMMARY ==========\n")
+    file.write(f"{'Total valid devices':<20}: {total_valid}\n")
+    file.write(f"{'Online':<20}: {online}\n")
+    file.write(f"{'Offline':<20}: {offline}\n")
+    file.write(f"{'Errors':<20}: {errors}\n")
+    file.write(f"{'Ignored':<20}: {ignored}\n")
+    file.write("=" * 40"\n\n")
 devices=[]
 devices=extract_file("devices.txt")
 check_connection(devices)
