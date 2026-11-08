@@ -26,8 +26,8 @@ def extract_file(file):
     except FileNotFoundError : 
         print("file not found.")
         return([])
-def check_connection(ips):
-    with open("test.log", "a", encoding="utf-8") as file:
+def check_connection(ips,log_file):
+    with open(log_file, "a", encoding="utf-8") as file:
         online=0
         offline=0
         ignored=0
@@ -92,7 +92,7 @@ try:
     config = load_config("config.json") 
     while True:
         devices=extract_file(config["devices_file"])
-        check_connection(devices)
+        check_connection(devices,config["log_file"])
         time.sleep(config["interval"])
 except KeyboardInterrupt:
     print("Monitoring stopped by user.")
