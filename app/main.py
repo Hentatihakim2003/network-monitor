@@ -1,6 +1,7 @@
 from ping3 import ping
 import ipaddress
 from datetime import datetime
+import time
 
 def check_valid_ip (ip):
     try:
@@ -79,7 +80,8 @@ def save_summary(file, online, offline, errors, ignored,total_valid):
     file.write(f"{'Offline':<20}: {offline}\n")
     file.write(f"{'Errors':<20}: {errors}\n")
     file.write(f"{'Ignored':<20}: {ignored}\n")
-    file.write("=" * 40"\n\n")
-devices=[]
-devices=extract_file("devices.txt")
-check_connection(devices)
+    file.write("=" * 40 + "\n\n")
+while True:
+    devices=extract_file("devices.txt")
+    check_connection(devices)
+    time.sleep(30)

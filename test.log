@@ -88,4 +88,549 @@ Online              : 1
 Offline             : 2
 Errors              : 0
 Ignored             : 1
+========================================2026-11-03 00:33:08 | 8.8.8.8        | online ✅ 4.78 ms
+2026-11-03 00:33:12 | 10.10.10.20    | offline ❌
+2026-11-03 00:33:12 | hi             | ignored
+2026-11-03 00:33:16 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
 ========================================
+
+2026-11-03 00:33:46 | 8.8.8.8        | online ✅ 6.36 ms
+2026-11-03 00:33:50 | 10.10.10.20    | offline ❌
+2026-11-03 00:33:50 | hi             | ignored
+2026-11-03 00:33:54 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:34:24 | 8.8.8.8        | online ✅ 5.81 ms
+2026-11-03 00:34:28 | 10.10.10.20    | offline ❌
+2026-11-03 00:34:28 | hi             | ignored
+2026-11-03 00:34:32 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:35:02 | 8.8.8.8        | online ✅ 4.57 ms
+2026-11-03 00:35:06 | 10.10.10.20    | offline ❌
+2026-11-03 00:35:06 | hi             | ignored
+2026-11-03 00:35:10 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:35:40 | 8.8.8.8        | online ✅ 5.72 ms
+2026-11-03 00:35:44 | 10.10.10.20    | offline ❌
+2026-11-03 00:35:44 | hi             | ignored
+2026-11-03 00:35:48 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:36:18 | 8.8.8.8        | online ✅ 6.24 ms
+2026-11-03 00:36:22 | 10.10.10.20    | offline ❌
+2026-11-03 00:36:22 | hi             | ignored
+2026-11-03 00:36:26 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:36:56 | 8.8.8.8        | online ✅ 6.21 ms
+2026-11-03 00:37:00 | 10.10.10.20    | offline ❌
+2026-11-03 00:37:00 | hi             | ignored
+2026-11-03 00:37:04 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:37:34 | 8.8.8.8        | online ✅ 4.95 ms
+2026-11-03 00:37:38 | 10.10.10.20    | offline ❌
+2026-11-03 00:37:38 | hi             | ignored
+2026-11-03 00:37:42 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:38:12 | 8.8.8.8        | online ✅ 6.11 ms
+2026-11-03 00:38:16 | 10.10.10.20    | offline ❌
+2026-11-03 00:38:16 | hi             | ignored
+2026-11-03 00:38:20 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:38:50 | 8.8.8.8        | online ✅ 6.93 ms
+2026-11-03 00:38:54 | 10.10.10.20    | offline ❌
+2026-11-03 00:38:54 | hi             | ignored
+2026-11-03 00:38:58 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:39:28 | 8.8.8.8        | online ✅ 5.16 ms
+2026-11-03 00:39:32 | 10.10.10.20    | offline ❌
+2026-11-03 00:39:32 | hi             | ignored
+2026-11-03 00:39:36 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:40:06 | 8.8.8.8        | online ✅ 6.03 ms
+2026-11-03 00:40:10 | 10.10.10.20    | offline ❌
+2026-11-03 00:40:10 | hi             | ignored
+2026-11-03 00:40:14 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:40:44 | 8.8.8.8        | online ✅ 8.72 ms
+2026-11-03 00:40:48 | 10.10.10.20    | offline ❌
+2026-11-03 00:40:48 | hi             | ignored
+2026-11-03 00:40:52 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:41:22 | 8.8.8.8        | online ✅ 6.76 ms
+2026-11-03 00:41:26 | 10.10.10.20    | offline ❌
+2026-11-03 00:41:26 | hi             | ignored
+2026-11-03 00:41:30 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:42:00 | 8.8.8.8        | online ✅ 5.14 ms
+2026-11-03 00:42:04 | 10.10.10.20    | offline ❌
+2026-11-03 00:42:04 | hi             | ignored
+2026-11-03 00:42:08 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:42:38 | 8.8.8.8        | online ✅ 5.94 ms
+2026-11-03 00:42:42 | 10.10.10.20    | offline ❌
+2026-11-03 00:42:42 | hi             | ignored
+2026-11-03 00:42:46 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:43:16 | 8.8.8.8        | online ✅ 4.59 ms
+2026-11-03 00:43:20 | 10.10.10.20    | offline ❌
+2026-11-03 00:43:20 | hi             | ignored
+2026-11-03 00:43:24 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:43:54 | 8.8.8.8        | online ✅ 4.19 ms
+2026-11-03 00:43:58 | 10.10.10.20    | offline ❌
+2026-11-03 00:43:58 | hi             | ignored
+2026-11-03 00:44:02 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:44:32 | 8.8.8.8        | online ✅ 5.91 ms
+2026-11-03 00:44:36 | 10.10.10.20    | offline ❌
+2026-11-03 00:44:36 | hi             | ignored
+2026-11-03 00:44:40 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:45:10 | 8.8.8.8        | online ✅ 6.03 ms
+2026-11-03 00:45:14 | 10.10.10.20    | offline ❌
+2026-11-03 00:45:14 | hi             | ignored
+2026-11-03 00:45:18 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:45:48 | 8.8.8.8        | online ✅ 5.36 ms
+2026-11-03 00:45:52 | 10.10.10.20    | offline ❌
+2026-11-03 00:45:52 | hi             | ignored
+2026-11-03 00:45:56 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:46:26 | 8.8.8.8        | online ✅ 6.1 ms
+2026-11-03 00:46:30 | 10.10.10.20    | offline ❌
+2026-11-03 00:46:30 | hi             | ignored
+2026-11-03 00:46:34 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:47:04 | 8.8.8.8        | online ✅ 5.18 ms
+2026-11-03 00:47:08 | 10.10.10.20    | offline ❌
+2026-11-03 00:47:08 | hi             | ignored
+2026-11-03 00:47:12 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:47:42 | 8.8.8.8        | online ✅ 6.51 ms
+2026-11-03 00:47:46 | 10.10.10.20    | offline ❌
+2026-11-03 00:47:46 | hi             | ignored
+2026-11-03 00:47:50 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:48:20 | 8.8.8.8        | online ✅ 5.49 ms
+2026-11-03 00:48:24 | 10.10.10.20    | offline ❌
+2026-11-03 00:48:24 | hi             | ignored
+2026-11-03 00:48:28 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:48:58 | 8.8.8.8        | online ✅ 5.62 ms
+2026-11-03 00:49:02 | 10.10.10.20    | offline ❌
+2026-11-03 00:49:02 | hi             | ignored
+2026-11-03 00:49:06 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:49:36 | 8.8.8.8        | online ✅ 7.02 ms
+2026-11-03 00:49:40 | 10.10.10.20    | offline ❌
+2026-11-03 00:49:40 | hi             | ignored
+2026-11-03 00:49:44 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:50:14 | 8.8.8.8        | online ✅ 6.67 ms
+2026-11-03 00:50:18 | 10.10.10.20    | offline ❌
+2026-11-03 00:50:18 | hi             | ignored
+2026-11-03 00:50:22 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:50:52 | 8.8.8.8        | online ✅ 6.8 ms
+2026-11-03 00:50:56 | 10.10.10.20    | offline ❌
+2026-11-03 00:50:56 | hi             | ignored
+2026-11-03 00:51:00 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:51:30 | 8.8.8.8        | online ✅ 6.06 ms
+2026-11-03 00:51:34 | 10.10.10.20    | offline ❌
+2026-11-03 00:51:34 | hi             | ignored
+2026-11-03 00:51:38 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:52:08 | 8.8.8.8        | online ✅ 5.06 ms
+2026-11-03 00:52:12 | 10.10.10.20    | offline ❌
+2026-11-03 00:52:12 | hi             | ignored
+2026-11-03 00:52:16 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:52:46 | 8.8.8.8        | online ✅ 6.56 ms
+2026-11-03 00:52:50 | 10.10.10.20    | offline ❌
+2026-11-03 00:52:50 | hi             | ignored
+2026-11-03 00:52:54 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:53:24 | 8.8.8.8        | online ✅ 6.48 ms
+2026-11-03 00:53:28 | 10.10.10.20    | offline ❌
+2026-11-03 00:53:28 | hi             | ignored
+2026-11-03 00:53:32 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:54:02 | 8.8.8.8        | online ✅ 4.64 ms
+2026-11-03 00:54:06 | 10.10.10.20    | offline ❌
+2026-11-03 00:54:06 | hi             | ignored
+2026-11-03 00:54:10 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:54:40 | 8.8.8.8        | online ✅ 6.62 ms
+2026-11-03 00:54:44 | 10.10.10.20    | offline ❌
+2026-11-03 00:54:44 | hi             | ignored
+2026-11-03 00:54:48 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:55:18 | 8.8.8.8        | online ✅ 10.25 ms
+2026-11-03 00:55:22 | 10.10.10.20    | offline ❌
+2026-11-03 00:55:22 | hi             | ignored
+2026-11-03 00:55:26 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:55:56 | 8.8.8.8        | online ✅ 4.74 ms
+2026-11-03 00:56:00 | 10.10.10.20    | offline ❌
+2026-11-03 00:56:00 | hi             | ignored
+2026-11-03 00:56:04 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:56:34 | 8.8.8.8        | online ✅ 4.56 ms
+2026-11-03 00:56:38 | 10.10.10.20    | offline ❌
+2026-11-03 00:56:38 | hi             | ignored
+2026-11-03 00:56:43 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:57:13 | 8.8.8.8        | online ✅ 4.99 ms
+2026-11-03 00:57:17 | 10.10.10.20    | offline ❌
+2026-11-03 00:57:17 | hi             | ignored
+2026-11-03 00:57:21 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:57:51 | 8.8.8.8        | online ✅ 7.14 ms
+2026-11-03 00:57:55 | 10.10.10.20    | offline ❌
+2026-11-03 00:57:55 | hi             | ignored
+2026-11-03 00:57:59 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:58:29 | 8.8.8.8        | online ✅ 123.13 ms
+2026-11-03 00:58:33 | 10.10.10.20    | offline ❌
+2026-11-03 00:58:33 | hi             | ignored
+2026-11-03 00:58:37 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-03 00:59:07 | 8.8.8.8        | online ✅ 4.05 ms
+2026-11-03 00:59:11 | 10.10.10.20    | offline ❌
+2026-11-03 00:59:11 | hi             | ignored
+2026-11-03 00:59:15 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
