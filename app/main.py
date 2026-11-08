@@ -5,9 +5,14 @@ import time
 import json
 
 def load_config(file):
-    with open (file,"r") as file:
-        config = json.load(file)
-        return (config)
+    try:
+        with open (file,"r") as file:
+            config = json.load(file)
+            return (config)
+    except FileNotFoundError:
+        print("config file not found.")
+        raise
+        
 
 def check_valid_ip (ip):
     try:
@@ -96,3 +101,5 @@ try:
         time.sleep(config["interval"])
 except KeyboardInterrupt:
     print("Monitoring stopped by user.")
+except FileNotFoundError:
+    print("ERROR: Unable to start monitoring. Configuration file missing.")
