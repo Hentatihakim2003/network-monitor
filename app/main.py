@@ -81,7 +81,11 @@ def save_summary(file, online, offline, errors, ignored,total_valid):
     file.write(f"{'Errors':<20}: {errors}\n")
     file.write(f"{'Ignored':<20}: {ignored}\n")
     file.write("=" * 40 + "\n\n")
-while True:
-    devices=extract_file("devices.txt")
-    check_connection(devices)
-    time.sleep(30)
+
+try:
+    while True:
+        devices=extract_file("devices.txt")
+        check_connection(devices)
+        time.sleep(30)
+except KeyboardInterrupt:
+    print("Monitoring stopped by user.")
