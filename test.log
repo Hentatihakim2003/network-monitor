@@ -647,3 +647,42 @@ Errors              : 0
 Ignored             : 1
 ========================================
 
+2026-11-08 14:02:49 | 8.8.8.8        | online ✅ 7.13 ms
+2026-11-08 14:02:53 | 10.10.10.20    | offline ❌
+2026-11-08 14:02:53 | hi             | ignored
+2026-11-08 14:02:57 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-08 14:03:27 | 8.8.8.8        | online ✅ 6.23 ms
+2026-11-08 14:03:31 | 10.10.10.20    | offline ❌
+2026-11-08 14:03:31 | hi             | ignored
+2026-11-08 14:03:35 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+
+2026-11-08 14:04:05 | 8.8.8.8        | online ✅ 5.57 ms
+2026-11-08 14:04:09 | 10.10.10.20    | offline ❌
+2026-11-08 14:04:09 | hi             | ignored
+2026-11-08 14:04:13 | 10.20.66.65    | offline ❌
+
+========== MONITORING SUMMARY ==========
+Total valid devices : 3
+Online              : 1
+Offline             : 2
+Errors              : 0
+Ignored             : 1
+========================================
+

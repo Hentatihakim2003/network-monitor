@@ -2,6 +2,12 @@ from ping3 import ping
 import ipaddress
 from datetime import datetime
 import time
+import json
+
+def load_config(file):
+    with open (file,"r") as file:
+        config = json.load(file)
+        return (config)
 
 def check_valid_ip (ip):
     try:
@@ -83,9 +89,10 @@ def save_summary(file, online, offline, errors, ignored,total_valid):
     file.write("=" * 40 + "\n\n")
 
 try:
+    config = load_config("config.json") 
     while True:
-        devices=extract_file("devices.txt")
+        devices=extract_file(config["devices_file"])
         check_connection(devices)
-        time.sleep(30)
+        time.sleep(config["interval"])
 except KeyboardInterrupt:
     print("Monitoring stopped by user.")

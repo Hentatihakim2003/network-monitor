@@ -1,0 +1,5 @@
+{
+    "devices_file": "devices.txt",
+    "interval": 30,
+    "log_file": "test.log"
+  }
