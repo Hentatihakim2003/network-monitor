@@ -8,6 +8,8 @@ def load_config(file):
     try:
         with open (file,"r") as file:
             config = json.load(file)
+            if (not isinstance(config["interval"], (int, float)) or isinstance(config["interval"], bool) or config["interval"]<=0):
+                raise(ValueError("Invalid interval"))
             return (config)
     except FileNotFoundError:
         print("config file not found.")
@@ -15,7 +17,7 @@ def load_config(file):
     except json.JSONDecodeError:
         print("Invalid JSON format")
         raise
-        
+    
 
 def check_valid_ip (ip):
     try:
@@ -108,3 +110,7 @@ except FileNotFoundError:
     print("ERROR: Unable to start monitoring. Configuration file missing.")
 except json.JSONDecodeError:
     print("ERROR: Unable to start monitoring. Invalid configuration format.")
+except ValueError:
+    print("invlid interval")
+except KeyError : 
+    print("ERROR: Missing required configuration key.")
