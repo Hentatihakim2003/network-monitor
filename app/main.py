@@ -12,6 +12,9 @@ def load_config(file):
     except FileNotFoundError:
         print("config file not found.")
         raise
+    except json.JSONDecodeError:
+        print("Invalid JSON format")
+        raise
         
 
 def check_valid_ip (ip):
@@ -103,3 +106,5 @@ except KeyboardInterrupt:
     print("Monitoring stopped by user.")
 except FileNotFoundError:
     print("ERROR: Unable to start monitoring. Configuration file missing.")
+except json.JSONDecodeError:
+    print("ERROR: Unable to start monitoring. Invalid configuration format.")
