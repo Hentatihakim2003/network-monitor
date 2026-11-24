@@ -97,20 +97,20 @@ def save_summary(file, online, offline, errors, ignored,total_valid):
     file.write(f"{'Errors':<20}: {errors}\n")
     file.write(f"{'Ignored':<20}: {ignored}\n")
     file.write("=" * 40 + "\n\n")
-
-try:
-    config = load_config("config.json") 
-    while True:
-        devices=extract_file(config["devices_file"])
-        check_connection(devices,config["log_file"])
-        time.sleep(config["interval"])
-except KeyboardInterrupt:
-    print("Monitoring stopped by user.")
-except FileNotFoundError:
-    print("ERROR: Unable to start monitoring. Configuration file missing.")
-except json.JSONDecodeError:
-    print("ERROR: Unable to start monitoring. Invalid configuration format.")
-except ValueError:
-    print("invlid interval")
-except KeyError : 
-    print("ERROR: Missing required configuration key.")
+if __name__ == "__main__":
+    try:
+        config = load_config("config.json") 
+        while True:
+            devices=extract_file(config["devices_file"])
+            check_connection(devices,config["log_file"])
+            time.sleep(config["interval"])
+    except KeyboardInterrupt:
+        print("Monitoring stopped by user.")
+    except FileNotFoundError:
+        print("ERROR: Unable to start monitoring. Configuration file missing.")
+    except json.JSONDecodeError:
+        print("ERROR: Unable to start monitoring. Invalid configuration format.")
+    except ValueError:
+        print("invlid interval")
+    except KeyError : 
+        print("ERROR: Missing required configuration key.")
