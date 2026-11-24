@@ -8,6 +8,8 @@ def load_config(file):
     try:
         with open (file,"r") as file:
             config = json.load(file)
+            if "devices_file" not in config or "log_file" not in config or "interval" not in config: 
+                raise(KeyError("files not found"))
             if (not isinstance(config["interval"], (int, float)) or isinstance(config["interval"], bool) or config["interval"]<=0):
                 raise(ValueError("Invalid interval"))
             return (config)

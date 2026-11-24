@@ -119,6 +119,5 @@ class TestConfig(unittest.TestCase):
             with open(config_path, "w") as file:
                 json.dump(config, file)
 
-            result = load_config(config_path)
-
-            self.assertNotIn("devices_file", result)
+            with self.assertRaises(KeyError):
+                load_config(config_path)
